@@ -1,5 +1,6 @@
 package com.cullorblind.skytools.init;
 
+import com.cullorblind.skytools.cullorsskytools;
 import com.cullorblind.skytools.reference.Reference;
 import net.minecraft.client.Minecraft;
 import net.minecraft.client.renderer.block.model.ModelResourceLocation;
@@ -11,7 +12,7 @@ public class ModItems {
     public static Item sky_stick;
 
     public static void init() {
-        sky_stick = new Item().setUnlocalizedName("sky_stick");
+        sky_stick = new Item().setUnlocalizedName("sky_stick").setCreativeTab(cullorsskytools.tabSkyToolsTab);
     }
 
     public static void register() {

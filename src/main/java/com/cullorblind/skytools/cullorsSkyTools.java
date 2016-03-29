@@ -18,6 +18,8 @@ public class cullorsskytools
     @SidedProxy(clientSide = Reference.CLIENT_PROXY_CLASS, serverSide = Reference.SERVER_PROXY_CLASS)
     public static CommonProxy proxy;
 
+    public static final SkyToolsTab tabSkyToolsTab = new SkyToolsTab("tabSkyToolsTab");
+
     @Mod.EventHandler
     public void preInit(FMLPreInitializationEvent event)
     {
