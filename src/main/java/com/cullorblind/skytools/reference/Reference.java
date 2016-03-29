@@ -8,5 +8,4 @@ public class Reference {
     public static final String FORGE_VERSION = "12.16.0.1804-1.9";
     public static final String CLIENT_PROXY_CLASS = "com.cullorblind.skytools.proxy.ClientProxy";
     public static final String SERVER_PROXY_CLASS = "com.cullorblind.skytools.proxy.ServerProxy";
-    public static final String GUI_FACTORY_CLASS = "com.cullorblind.skytools.client.gui.GuiFactory";
 }

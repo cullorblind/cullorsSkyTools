@@ -1,11 +1,10 @@
 package com.cullorblind.skytools.init;
 
+import com.cullorblind.skytools.reference.Reference;
 import net.minecraft.client.Minecraft;
 import net.minecraft.client.renderer.block.model.ModelResourceLocation;
 import net.minecraft.item.Item;
 import net.minecraftforge.fml.common.registry.GameRegistry;
-
-import com.cullorblind.skytools.reference.Reference;
 
 public class ModItems {
 
