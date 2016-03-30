@@ -16,8 +16,4 @@ public class SkyToolsTab extends CreativeTabs {
         return ModItems.sky_stick;
     }
 
-    @Override
-    public String getTranslatedTabLabel() {
-        return "Cullors Sky Tools";
-    }
 }
